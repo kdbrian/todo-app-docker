@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/todoappdocker
+    username: dev
+    password: 2022
+
+  jpa:
+    hibernate:
+      ddl-auto: 'update'
+
+  development:
+    env: dev
